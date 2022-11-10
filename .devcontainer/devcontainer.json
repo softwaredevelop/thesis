@@ -14,8 +14,14 @@
 	"customizations": {
 	// Configure properties specific to VS Code.
 		"vscode": {
-			"settings": {},
-			"extensions": []
+			"settings": {
+				"latex-workshop.bibtex-fields.order": ["true"],
+				"latex-workshop.linting.chktex.enabled": true,
+				"latex-workshop.latex.autoBuild.run": "onSave"
+			},
+			"extensions": [
+				"james-yu.latex-workshop"
+			]
 			// "devPort": {}
 		}
 	},
