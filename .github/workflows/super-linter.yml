@@ -8,12 +8,14 @@ on:
     paths-ignore:
       - ".devcontainer/Dockerfile.*"
       - ".devcontainer/Dockerfile"
+      - "texstudio/LICENSE.txt"
   pull_request:
     branches:
       - "main"
     paths-ignore:
       - ".devcontainer/Dockerfile.*"
       - ".devcontainer/Dockerfile"
+      - "texstudio/LICENSE.txt"
 
 concurrency:
   group: ${{ github.ref }}-${{ github.workflow }}
